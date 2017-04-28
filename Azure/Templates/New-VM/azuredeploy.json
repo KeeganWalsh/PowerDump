@@ -126,7 +126,11 @@
             "location": "[parameters('location')]",
             "properties": {
                 "accountType": "[parameters('storageAccountType')]"
-            }
+            },
+			"parametersLink": { 
+					"uri":"https://github.com/KeeganWalsh/PowerDump/blob/master/Azure/Templates/New-VM/New-VMParameters.json",
+					"contentVersion":"1.0.0.0"
+			}
         },
         {
             "name": "[parameters('diagnosticsStorageAccountName')]",
@@ -135,7 +139,11 @@
             "location": "[parameters('location')]",
             "properties": {
                 "accountType": "[parameters('diagnosticsStorageAccountType')]"
-            }
+            },
+			"parametersLink": { 
+					"uri":"https://github.com/KeeganWalsh/PowerDump/blob/master/Azure/Templates/New-VM/New-VMParameters.json",
+					"contentVersion":"1.0.0.0"
+			}
         },
         {
             "name": "[parameters('virtualNetworkName')]",
@@ -156,7 +164,11 @@
                         }
                     }
                 ]
-            }
+            },
+			"parametersLink": { 
+					"uri":"https://github.com/KeeganWalsh/PowerDump/blob/master/Azure/Templates/New-VM/New-VMParameters.json",
+					"contentVersion":"1.0.0.0"
+			}
         },
         {
             "name": "[parameters('networkInterfaceName')]",
@@ -186,7 +198,11 @@
                 "networkSecurityGroup": {
                     "id": "[resourceId('CattleRG', 'Microsoft.Network/networkSecurityGroups', parameters('networkSecurityGroupName'))]"
                 }
-            }
+            },
+			"parametersLink": { 
+					"uri":"https://github.com/KeeganWalsh/PowerDump/blob/master/Azure/Templates/New-VM/New-VMParameters.json",
+					"contentVersion":"1.0.0.0"
+			}
         },
         {
             "name": "[parameters('publicIpAddressName')]",
@@ -195,7 +211,11 @@
             "location": "[parameters('location')]",
             "properties": {
                 "publicIpAllocationMethod": "[parameters('publicIpAddressType')]"
-            }
+            },
+			"parametersLink": { 
+					"uri":"https://github.com/KeeganWalsh/PowerDump/blob/master/Azure/Templates/New-VM/New-VMParameters.json",
+					"contentVersion":"1.0.0.0"
+			}
         },
         {
             "name": "[parameters('networkSecurityGroupName')]",
@@ -218,7 +238,11 @@
                         }
                     }
                 ]
-            }
+            },
+			"parametersLink": { 
+					"uri":"https://github.com/KeeganWalsh/PowerDump/blob/master/Azure/Templates/New-VM/New-VMParameters.json",
+					"contentVersion":"1.0.0.0"
+			}
         }
     ],
     "outputs": {
