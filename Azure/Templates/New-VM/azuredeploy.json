@@ -115,7 +115,7 @@
                 }
             },
 			"parametersLink": { 
-					"uri":"https://github.com/KeeganWalsh/PowerDump/blob/master/Azure/Templates/New-VM/New-VMParameters.json",
+					"uri":"https://raw.githubusercontent.com/KeeganWalsh/PowerDump/master/Azure/Templates/New-VM/azuredeploy.parameters.json",
 					"contentVersion":"1.0.0.0"
 			}
         },
@@ -128,7 +128,7 @@
                 "accountType": "[parameters('storageAccountType')]"
             },
 			"parametersLink": { 
-					"uri":"https://github.com/KeeganWalsh/PowerDump/blob/master/Azure/Templates/New-VM/New-VMParameters.json",
+					"uri":"https://raw.githubusercontent.com/KeeganWalsh/PowerDump/master/Azure/Templates/New-VM/azuredeploy.parameters.json",
 					"contentVersion":"1.0.0.0"
 			}
         },
@@ -141,7 +141,7 @@
                 "accountType": "[parameters('diagnosticsStorageAccountType')]"
             },
 			"parametersLink": { 
-					"uri":"https://github.com/KeeganWalsh/PowerDump/blob/master/Azure/Templates/New-VM/New-VMParameters.json",
+					"uri":"https://raw.githubusercontent.com/KeeganWalsh/PowerDump/master/Azure/Templates/New-VM/azuredeploy.parameters.json",
 					"contentVersion":"1.0.0.0"
 			}
         },
@@ -166,7 +166,7 @@
                 ]
             },
 			"parametersLink": { 
-					"uri":"https://github.com/KeeganWalsh/PowerDump/blob/master/Azure/Templates/New-VM/New-VMParameters.json",
+					"uri":"https://raw.githubusercontent.com/KeeganWalsh/PowerDump/master/Azure/Templates/New-VM/azuredeploy.parameters.json",
 					"contentVersion":"1.0.0.0"
 			}
         },
@@ -200,7 +200,7 @@
                 }
             },
 			"parametersLink": { 
-					"uri":"https://github.com/KeeganWalsh/PowerDump/blob/master/Azure/Templates/New-VM/New-VMParameters.json",
+					"uri":"https://raw.githubusercontent.com/KeeganWalsh/PowerDump/master/Azure/Templates/New-VM/azuredeploy.parameters.json",
 					"contentVersion":"1.0.0.0"
 			}
         },
@@ -213,7 +213,7 @@
                 "publicIpAllocationMethod": "[parameters('publicIpAddressType')]"
             },
 			"parametersLink": { 
-					"uri":"https://github.com/KeeganWalsh/PowerDump/blob/master/Azure/Templates/New-VM/New-VMParameters.json",
+					"uri":"https://raw.githubusercontent.com/KeeganWalsh/PowerDump/master/Azure/Templates/New-VM/azuredeploy.parameters.json",
 					"contentVersion":"1.0.0.0"
 			}
         },
@@ -240,7 +240,7 @@
                 ]
             },
 			"parametersLink": { 
-					"uri":"https://github.com/KeeganWalsh/PowerDump/blob/master/Azure/Templates/New-VM/New-VMParameters.json",
+					"uri":"https://raw.githubusercontent.com/KeeganWalsh/PowerDump/master/Azure/Templates/New-VM/azuredeploy.parameters.json",
 					"contentVersion":"1.0.0.0"
 			}
         }
