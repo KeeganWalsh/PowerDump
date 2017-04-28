@@ -3,4 +3,4 @@ Create New VM <br>
     <img src="http://azuredeploy.net/deploybutton.png"/>
 </a>
 
-[![Deploy to Azure](http://azuredeploy.net/deploybutton.svg)]
+
