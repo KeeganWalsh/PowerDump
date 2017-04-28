@@ -113,7 +113,11 @@
                         "storageUri": "[reference(resourceId('CattleRG', 'Microsoft.Storage/storageAccounts', parameters('diagnosticsStorageAccountName')), '2015-06-15').primaryEndpoints['blob']]"
                     }
                 }
-            }
+            },
+			"parametersLink": { 
+					"uri":"https://github.com/KeeganWalsh/PowerDump/blob/master/Azure/Templates/New-VM/New-VMParameters.json",
+					"contentVersion":"1.0.0.0"
+			}
         },
         {
             "name": "[parameters('storageAccountName')]",
