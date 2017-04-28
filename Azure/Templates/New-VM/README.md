@@ -3,5 +3,3 @@ Create New VM <br>
     <img src="http://azuredeploy.net/deploybutton.png"/>
 </a>
 
-Another Test
-[![Deploy to Azure](http://azuredeploy.net/deploybutton.svg)](https://github.com/KeeganWalsh/PowerDump/blob/master/Azure/Templates/New-VM/azuredeploy.json?ptmpl=https://github.com/KeeganWalsh/PowerDump/blob/master/Azure/Templates/New-VM/New-VMParameters.json)
