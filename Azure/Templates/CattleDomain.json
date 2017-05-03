@@ -1,0 +1,40 @@
+[  
+    {  
+        "ResourceGroup":{  
+            "Name":"CattleRG",
+            "Location":"East US"
+        },
+        "VNet":{  
+            "Name":"CattleRGVirtualNetwork",
+            "AddressPrefix":"10.0.0.0/24",
+            "Subnet":{  
+                "Name":"Default",
+                "AddressPrefix":"10.0.0.0/24"
+            }
+        },
+        "NetworkSecurityGroup":{  
+            "Name":"CattleRGNSG",
+            "Rules":{  
+                "Name":"RDPRule",
+                "Properties":{  
+                    "priority":1000,
+                    "sourceAddressPrefix":"*",
+                    "protocol":"TCP",
+                    "destinationPortRange":"3389",
+                    "access":"Allow",
+                    "direction":"Inbound",
+                    "sourcePortRange":"*",
+                    "destinationAddressPrefix":"*"
+                }
+            }
+        },
+		"VMTemplate":{
+			"Size": "Standard_DS1_v2",
+			"Publisher": "MicrosoftWindowsServer",
+			"Sku": "2016-Datacenter",
+			"Offer": "WindowsServer",
+			"Version": "latest",
+			"CreateOption": "fromImage"
+		}
+    }
+]
