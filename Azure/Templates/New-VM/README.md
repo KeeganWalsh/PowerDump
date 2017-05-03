@@ -3,3 +3,4 @@ Create New VM <br>
     <img src="http://azuredeploy.net/deploybutton.png"/>
 </a>
 
+
