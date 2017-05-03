@@ -6,7 +6,7 @@
             "value": "eastus"
         },
         "virtualMachineName": {
-            "value": "Cattle001"
+            "value": "Cattle002"
         },
         "virtualMachineSize": {
             "value": "Standard_DS1_v2"
@@ -18,28 +18,28 @@
             "value": "CattleRG-vnet"
         },
         "networkInterfaceName": {
-            "value": "cattle001993"
+            "value": "cattle002993"
         },
         "networkSecurityGroupName": {
-            "value": "Cattle001-nsg"
+            "value": "Cattle002-nsg"
         },
         "adminPassword": {
-            "value": null
+            "value": "Adminadmin1!"
         },
         "storageAccountName": {
-            "value": "cattlergdisks847"
+            "value": "cattlergdisks848"
         },
         "storageAccountType": {
             "value": "Premium_LRS"
         },
         "diagnosticsStorageAccountName": {
-            "value": "cattlergdiag489"
+            "value": "cattlergdiag490"
         },
         "diagnosticsStorageAccountType": {
             "value": "Standard_LRS"
         },
         "diagnosticsStorageAccountId": {
-            "value": "Microsoft.Storage/storageAccounts/cattlergdiag489"
+            "value": "Microsoft.Storage/storageAccounts/cattlergdiag490"
         },
         "addressPrefix": {
             "value": "10.0.0.0/24"
@@ -51,7 +51,7 @@
             "value": "10.0.0.0/24"
         },
         "publicIpAddressName": {
-            "value": "Cattle001-ip"
+            "value": "Cattle002-ip"
         },
         "publicIpAddressType": {
             "value": "Dynamic"
