@@ -5,7 +5,7 @@
 
 #HardCoded Paths/Values
 Select-AzureRmProfile -Path "C:\Hidden\VSAccount.json" | Out-Null
-$Template = Get-Content "C:\PowerDump\Azure\Templates\CattleDomain.json" | convertFrom-Json
+$Template = (new-object Net.WebClient).DownloadString("https://raw.githubusercontent.com/KeeganWalsh/PowerDump/master/Azure/Templates/CattleDomain.json") | convertFrom-Json
 $secpasswd = ConvertTo-SecureString “Adminadmin1!” -AsPlainText -Force
 $Credential = New-Object System.Management.Automation.PSCredential (“admin123”, $secpasswd)
 
