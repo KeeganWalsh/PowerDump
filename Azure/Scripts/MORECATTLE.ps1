@@ -4,7 +4,11 @@
       )
 
 #HardCoded Paths/Values
-Select-AzureRmProfile -Path "C:\Hidden\VSAccount.json" | Out-Null
+$CredObject = import-clixml -path "C:\Hidden\AzureCreds.xml"
+$SubscriptionName = Get-Content "C:\Hidden\SubscriptionName.txt"
+$Connection = Add-AzureRmAccount -SubscriptionName $SubscriptionName -Credential $CredObject
+Set-AzureRmContext -SubscriptionName $SubscriptionName | Out-Null
+
 $Template = (new-object Net.WebClient).DownloadString("https://raw.githubusercontent.com/KeeganWalsh/PowerDump/master/Azure/Templates/CattleDomain.json") | convertFrom-Json
 $secpasswd = ConvertTo-SecureString “Adminadmin1!” -AsPlainText -Force
 $Credential = New-Object System.Management.Automation.PSCredential (“admin123”, $secpasswd)
